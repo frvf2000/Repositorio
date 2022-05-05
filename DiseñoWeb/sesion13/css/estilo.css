@@ -1,0 +1,22 @@
+/*Selectores*/
+body{
+    background:cornflowerblue;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+}
+section{
+    
+    border: 2px solid white;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}

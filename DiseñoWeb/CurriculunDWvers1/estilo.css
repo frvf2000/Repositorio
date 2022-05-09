@@ -1,0 +1,52 @@
+body{
+
+    font-family: Arial;
+}
+#main-cont{
+  margin: 100px auto;  
+  width: 1200px;
+}
+table{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+th,td{
+    padding: 10px;
+    width: auto;
+}
+thead{
+    background-color: brown;
+    border-bottom: solid 5px blue;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #FFBD33;
+}
+tr{
+    font-size: 12   px;
+}
+.table{
+    width: 30%;
+    text-align: start;  
+    
+    
+}
+.container{
+    padding: 80px;
+
+}
+.container1{
+    padding-left: 80px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    color: black;
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+    background: #FFBD33;
+    border: 20px solid white;
+    
+}

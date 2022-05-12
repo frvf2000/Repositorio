@@ -1,0 +1,7 @@
+a[href ^="mailto:"]{
+    color: blockquote;
+}
+.externo{
+    font-size: 14px;
+    font-family: Arial;
+}

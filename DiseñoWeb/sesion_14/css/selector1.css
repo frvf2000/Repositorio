@@ -5,3 +5,30 @@ a[class="externo"]{
     font-size: 14px;
     font-family: Arial;
 }
+.tamaño{
+    height: 60px;
+    width: 100px;
+
+}
+#caja1{
+    background-color: red;
+    float: left;
+}
+#caja2{
+    background-color: blue;
+    float: left;
+}
+#caja3{
+    background-color: green;
+    float: left;
+}
+#caja4{
+    background-color: yellow;
+    float: left;
+}
+.espacio{
+    width: 20px;
+    height: 60px;
+    float: left;
+    background-color: white;
+}

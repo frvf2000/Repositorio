@@ -1,0 +1,36 @@
+.headerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headerGrid :hover{
+    border: 1px solid red;
+}
+.asideGrid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.navGrid li , a{
+    list-style: none;
+    text-decoration: none;
+    background-color: beige;
+}
+.cont1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.cont1 .imgCont1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+.navLado{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.navLado li{
+    
+    margin-left: 20px;
+
+}

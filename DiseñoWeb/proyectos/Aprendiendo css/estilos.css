@@ -1,0 +1,79 @@
+body{
+    background: #F9FF71;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 3px solid white ;
+    
+}
+header{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color:black;
+    border-bottom: 3px solid #5E1809; /* linea solida */
+}
+nav{
+    background:#F9755C;
+    height: 50px;
+    border-bottom: 3px solid #5E1809;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    
+}
+
+.clearfix{
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: #FF5733;
+    color: white;
+    padding: 40px;
+}
+
+aside{
+    /*Barra Lateral*/
+    float: left;
+    width: calc(20% - 20px);
+    background: #BBFF5A;
+    min-height: 500px;
+    
+    padding: 10px;
+}
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #5E1809;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #5E1809;
+
+}
+.article h2{
+    font-size: 25px;
+}
+footer{
+    /*Pie de Pagina*/
+    background: black;
+    color: white;
+    text-align: center  ;
+}

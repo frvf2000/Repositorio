@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="image/icono.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Encuesta de Cine: Nominados Al Oscar</h2>
+    <div class="conte">
+        <div>
+            <form action="formulario1" name="formulario1" method="post" action="data.php">
+                <fieldset id="datos_personales">
+                    <legend>
+                        <div class="title">
+                            Datos Personales
+                        </div>
+                        
+                    </legend>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <div class="espacio"></div>
+                    <label for="dni">DNI</label><br>
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <div class="espacio"></div>
+                    <label for="edad">Edad</label><br>
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <div class="espacio"></div>
+                    <label for="sex">Sexo</label> <br>
+                    <select name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                    </select>
+                </fieldset>
+                
+                <div class="cont1"></div>
+                <fieldset id="Mejor_pelicula">
+                    <div class="cont1"></div>
+                    <legend id="legen1">Mejor Pelicula</legend>
+                    
+                    <input type="radio" name="Pelicula" >Call Me By Your Name <br>
+                    <input type="radio" name="Pelicula" >Dunkerque <br>
+                    <input type="radio" name="Pelicula" >Dejame Salir <br>    
+        
+                </fieldset>
+        
+                <div class="cont1"></div>
+                <fieldset class="quePeliViste">
+                    
+                    <legend id="legen1">Que peliculas has visto</legend>
+                    <div class="cont1"></div>
+                    <input type="checkbox" name="Pelicula" value="11">Call Me By Your Name <br>
+                    <input type="checkbox" name="Pelicula" value="22">Dunkerque <br>
+                    <input type="checkbox" name="Pelicula" value="23">Dejame Salir <br>    
+                </fieldset>
+            </form>
+            <div class="cont1"></div>
+            <fieldset id="grupo_Argumento">
+                <legend id="legen1">Argumento de tu película preferida</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="10"></textarea>
+            </fieldset>
+            <br>
+            <input class="btnBorrar" type="reset" value="Borra Formulario">
+            <input class="btnEnviar" type="submit" value="Enviar">
+            <button>ENVIAR</button>
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+body{
+    font-family: Arial;
+}
+
+.gridCabeza{
+    display: grid;
+    grid-template-columns: 140px 80% 20%;
+
+}
+.gridCabeza div{
+    background-color: #ecf0f1;
+    padding: 1em;   
+}
+
+#iconoC img{
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+.gridCuerpo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    
+}
+.gridNav {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.gridSection{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.lista{
+    list-style: none;
+    display: flex;
+}
+.lista li {
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.subConetiener{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+}
+.lista{
+    background-color: bisque;
+}
+.lista li:hover{
+    background-color: cadetblue;
+    height: 23px;
+    border-bottom: 2px solid blueviolet;
+    
+}
+.lista a:hover{
+    color: white;
+}
+.lista a{
+    color: black;
+}
+.gridSub{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.img{
+    height: 75px;
+    width: 218px;
+    padding-top: 60px;
+    text-align: center;
+    background-color: beige;
+}
+.text{
+    padding: 20px;
+    text-align: justify;
+}
+.subContainer .noticiaTiltle{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.subTitleNoticia{
+    font-weight: bold;
+}
+.gridPie{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color: beige;
+}
+.subGridPie{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.conten1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: beige;    
+}
+.conten2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+.subContImagen{
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+.agrupadorContGridCuerpo{
+    padding: 90px;
+    padding-top: 20px;
+}
+.gridNav{
+    margin-top: 100px;
+    background-color: beige;
+}
+.menuGridNav {
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    list-style: circle;
+}
+.subTT{
+    padding-left: 0px;
+}
+.menuGridNav div{
+    padding-left: 20px;
+}
+#icono img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+#MwP h3{
+    
+    font-weight: 100;
+}
+.gridSubCabe{
+    height: auto    ;
+}
+.conteirnerProyect{
+    display: grid;
+    grid-template-rows: 40px auto  auto;
+    grid-template-rows: 50px;
+}
+
+.subContainer1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+.imgProyecto{
+    width: auto;
+    height: 70px;
+    background-color:greenyellow;
+    padding-top: 50px;
+    text-align: center;
+    border: 1px solid greenyellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.tilte {
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+}
+.btn :hover{
+    background-color: greenyellow;
+    border: 0px ;
+    
+}
+.btn button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border: 0px ;
+    background-color: bisque;
+    border-radius: 20px;
+    
+}
+.btn a{
+    
+    color: black;
+}

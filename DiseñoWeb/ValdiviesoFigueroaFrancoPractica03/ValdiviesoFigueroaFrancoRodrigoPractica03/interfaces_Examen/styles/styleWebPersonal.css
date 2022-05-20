@@ -1,0 +1,168 @@
+@media (orientation: landscape) {
+}
+@media (max-width:320px){
+}
+@media (min-width:768px){
+}
+body{
+    font-family: Arial;
+}
+
+.gridCabeza{
+    display: grid;
+    grid-template-columns: 140px 80% 20%;
+
+}
+.gridCabeza div{
+    background-color: #ecf0f1;
+    padding: 1em;   
+}
+
+#iconoC img{
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+.gridCuerpo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    
+}
+.gridNav {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.gridSection{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.lista{
+    list-style: none;
+    display: flex;
+}
+.lista li {
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.subConetiener{
+    display: grid;
+    grid-template-rows: 5% 60%;
+    
+}
+.lista{
+    background-color: bisque;
+}
+.lista li:hover{
+    background-color: cadetblue;
+    height: 23px;
+    
+}
+.lista a:hover{
+    color: white;
+}
+.lista a{
+    color: black;
+}
+.gridSub{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.img{
+    padding-top: auto   ;
+    text-align: center;
+}
+.img img{
+    height: auto;
+    width: 218px;
+    
+    text-align: center;
+    background-color: beige;
+}
+.text{
+    padding: 20px;
+    text-align: justify;
+}
+.subContainer .noticiaTiltle{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.subTitleNoticia{
+    font-weight: bold;
+}
+.gridPie{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color: beige;
+}
+.subGridPie{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.conten1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: beige;    
+}
+.conten2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+.subContImagen{
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+.agrupadorContGridCuerpo{
+    padding: 90px;
+    padding-top: 20px;
+}
+.gridNav{
+    margin-top: 100px;
+    background-color: beige;
+}
+.menuGridNav {
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    list-style: circle;
+}
+.subTT{
+    padding-left: 0px;
+}
+.menuGridNav div{
+    padding-left: 20px;
+}
+#icono img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+#MwP h3{
+    
+    font-weight: 100;
+}
+.gridSubCabe{
+    height: auto    ;
+}
+.img3 img{
+    padding-top: 60px;
+    width: 230px;
+}
+.img2 img{
+    padding-top: 30px;
+    width: 240px;
+}

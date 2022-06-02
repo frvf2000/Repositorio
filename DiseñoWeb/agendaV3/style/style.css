@@ -1,0 +1,73 @@
+body{
+    border-top: 20px;
+    color: white;
+    background-color:#085CA6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.agrupadorSubContaier{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 30%;
+}
+.conteinerGrid{
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 2px;
+    background-color:#F20707;
+    width: 900px;
+    padding: 50px;
+    margin: 2% 0% 0% 10%;
+}
+.subContainer{
+    padding-left: 50px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    display: grid;
+    row-gap: 12px;
+    margin-bottom: 20px;
+}
+.botones button:hover{
+    background-color: #F2E30F;
+    
+}
+.agrupadorSubContaier input{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 30px;
+    width: 160px;
+    text-decoration: none;
+    border: 0px solid white;
+    margin-left: 20px;
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+.botones button{
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.conteinerTablaMostrar{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 99px 180px 160px 200px 200px;
+    background-color: white;
+    color: black;
+    
+}
+.conteinerTabla{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 99px 180px 160px 200px 100px;
+    background-color: #F2E30F;
+    color: black;
+    font-weight: bold;
+}
+

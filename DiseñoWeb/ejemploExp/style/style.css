@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+}
+.conteiner{
+    padding: 20px;
+}
+.conteiner-btns button:hover {
+    background-color: darkseagreen;
+    font-weight: bold;
+    font-size: 15px;
+}
+.conteiner-btns {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+.conteiner-btns button{
+    height: 40px;
+    width: auto;
+    border: 0px solid;
+
+}

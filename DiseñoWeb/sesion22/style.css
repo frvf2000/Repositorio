@@ -1,0 +1,31 @@
+p::first-letter{
+    font-size: 20rem;
+}
+.pseudoElement{
+    border: 2px solid black;
+    width: 20%;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+/*PseudoClases*/
+.pseudoElement::before{
+    content: "HOLAAAAAA";
+    background-color: red;
+    color: wheat;
+}
+.pseudoElement::after{
+    content: "PERUUUUUU";
+    background-color: red;
+    color: wheat;
+}
+/*PseudoElementos*/
+div:hover{
+    background-color: blanchedalmond;
+}
+a:focus{
+    color: red;
+}
+a:active{
+    color: aqua;
+}

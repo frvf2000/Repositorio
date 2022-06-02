@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Agenda de Contactos</title>
+</head>
+
+<body>
+    <div class="tittle">
+        <div class="conteinerGrid">
+            <h3>Mi Agenda de Contactos</h3>
+            <div class="subContainer">
+                <div class="agrupadorSubContaier">
+                    <div>Nombre :</div>
+                    <input type="text" placeholder="Nombre" id="nombre">
+                </div>
+                <div class="agrupadorSubContaier">
+                    <div>Numero de Celular :</div>
+                    <input type="text" placeholder="Movil" id="movil">
+                </div>
+                <div class="agrupadorSubContaier">
+                    <div>Numero de Casa : </div>
+                    <input type="text" placeholder="Casa" id="casa">
+                </div>
+                <div class="agrupadorSubContaier">
+                    <div>Correo :</div>
+                    <input type="text" placeholder="E-Mail" id="email">
+                </div>
+                <div class="agrupadorSubContaier">
+                    <div>Direccion :</div>
+                    <input type="text" placeholder="" id="direcc">
+                </div>
+            </div>
+
+            <div class="botones">
+                <button id="guardar" onclick="guardarDatos()" >Guardar</button>
+                <button id="Recuperar" onclick="recuperarDatos()">Recuperar</button>
+                <button id="Eliminar">Eliminar</button>
+                <button id="eliminarTodo" onclick="eliminarTodo()" >Eliminar Datos</button>
+                <button id="actualizarDatos" onclick="actualizarDatos()" >Actualizar Datos</button>
+            </div>
+            <div class="conteinerTabla">
+                <div>Nombre</div>
+                <div>Numero de Celular</div>
+                <div>Numero de Casa</div>
+                <div>Correo</div>
+                <div>Direccion</div>
+            </div>
+            <div id="datos"></div>
+        </div>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
